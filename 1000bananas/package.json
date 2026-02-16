@@ -1,0 +1,33 @@
+{
+  "name": "1000bananas",
+  "version": "0.1.0",
+  "description": "A modern web application for tracking and managing 1000 bananas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}"
+  },
+  "keywords": [
+    "bananas",
+    "tracking",
+    "dashboard",
+    "react",
+    "modern-web"
+  ],
+  "author": "alexuswingz",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "chart.js": "^4.4.0"
+  }
+}
